@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML Form </title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="container">
+	<div class="col-md-6">
+	
+	<div class="alert">Your message has been sent to firebase.</div>
+	<div class="contact">
+<form id="contactForm">
+First_Name :<input type="text" name="first_name" placeholder="Enter your first name" id="fname" required><br>
+Last_Name :<input type="text" name="last_name" placeholder="Enter your last name"  id="lname" required> <br>
+   Password :             <input type="text" name="Password" placeholder="Password" id="pwd" required><br>
+Email: <input type="text" placeholder="Email" id="email" required><br>
+Phone.no :<select>
+	<option>Nepal</option>
+	<option>India</option>
+	<option>korea</option></select> <select>
+	<option>+977</option>
+	<option>+966</option>
+	<option>+976</option>
+
+
+</select> <input type="text" placeholder="98********" id="phone" required><br>
+<button type="submit">Submit</button>
+
+
+<script src="https://www.gstatic.com/firebasejs/5.6.0/firebase.js"></script>
+<script src="main.js"></script>
+
+</form>
+</div>
+</div>
+</div>
+
+</body>
+</html>

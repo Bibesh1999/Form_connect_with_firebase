@@ -1,0 +1,49 @@
+
+body{
+  background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(3.jpg);
+ 
+  color:#485e74;
+  line-height:1.5;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding:1em;
+}
+
+.alert{
+  text-align: center;
+  padding:10px;
+  background:#79c879;
+  color:#fff;
+  margin-bottom:10px;
+  display:none;
+  margin-left: 40%;
+}
+.container{
+  max-width:1170px;
+  margin-left:20%;
+  margin-right:auto;
+  padding:1em;
+}
+.contact{
+  background:#f9feff;
+  margin-left: 40%;
+  padding: 20px;
+  margin-top: -30px;
+ }
+ 
+
+.contact form button, .contact form input{
+  width:100%;
+  padding:1em;
+  border:1px solid #c9e6ff;
+}
+.contact form button{
+  background:#c9e6ff;
+  border:0;
+  text-transform: uppercase;
+}
+.contact form button:hover,.contact form button:focus{
+  background:#92bde7;
+  color:#fff;
+  outline:0;
+  transition: background-color 2s ease-out;
+}
